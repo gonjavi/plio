@@ -4,9 +4,9 @@ class Intro extends Component {
   render() {
     return (
       <div className="container">
-        <div className="col s12 offset-m1">
-          <h5 className="intro">G. Javier</h5>
-          <h5 className="intro">I'm Gonzalo,Software Engineer/Full-stack Developer. Passionate about solving problems and learning new things. </h5>
+        <div className="row">
+          <p className="intro">G. Javier</p>
+          <p className="intro">I'm Gonzalo, <span>Software Engineer/Full-stack Developer.</span> Passionate about solving problems and learning new things. </p>
         </div>
         
       </div>

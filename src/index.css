@@ -1,3 +1,6 @@
+html {
+  min-height: 100%;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -17,7 +20,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+.logo {
+  color: green;
+}
+span {
+  color: green;
+}
 nav {
   margin-top: 30px;
   height: 80px;
@@ -27,6 +35,6 @@ nav {
   vertical-align: middle;
 }
 .intro {
-  font-size: 28px;
+  font-size: 27px;
   line-height: 1.6;
 }

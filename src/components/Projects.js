@@ -4,8 +4,10 @@ import Project from './projects/Project';
 class Projects extends Component {
   render() {
     return (
-      <div>
-        <Project />
+      <div className="container">
+        <div className="col l12 s6">
+          <Project />
+        </div>
         
       </div>
     )
