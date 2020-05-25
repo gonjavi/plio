@@ -22,61 +22,69 @@ class Projects extends Component {
 
         <div className="row">
         
-          <div className="col-md-6 col-sm-12">
-          <img
-            alt='todolist'
-            width = '100%'
-            src={todolist}
-          />
-          </div>
-          <div className="col-md-6 col-sm-12 ">
-          <img
-            alt='todolist'
-            width = '100%'
-            src={resto}
-            />
-          </div>
-          <div className="col-md-6 col-sm-12 ">
-          <img
-            alt='todolist'
-            width = '100%'
-            src={facebook}
-            />
-          </div>
-          <div className="col-md-6 col-sm-12 ">
-            <img
-              alt='todolist'
-              width = '100%'
-              src={weather}
+          <div className="col-md-6 col-sm-12 columnas">
+            <div>
+              <img
+                alt='todolist'
+                width = '100%'
+                src={todolist}
               />
+            </div>
+
+            <div>
+              <img
+                alt='todolist'
+                width = '100%'
+                src={facebook}
+                />
+            </div>
+            <div className="">
+              <img
+                alt='medium'
+                width = '100%'
+                src={medium1}
+                />
+            </div>
+            <div className="">
+              <img
+                alt='newyork'
+                width = '100%'
+                src={newyork}
+                />
+            </div>
+
           </div>
-          <div className="col-md-6 col-sm-12 ">
-            <img
-              alt='medium'
-              width = '100%'
-              src={medium1}
-              />
-          </div>
-          <div className="col-md-6 col-sm-12 mb-15">
-            <img
-              alt='apple'
-              width = '100%'
-              src={apple}
-              />
-          </div>
-          <div className="col-md-6 col-sm-12">
-            <img
-              alt='newyork'
-              width = '100%'
-              src={newyork}
-              />
-          </div>
-          <div className="col-md-6 col-sm-12 ">
-            <img
-              alt='newsweek'
-              width = '100%'
-              src={newsweek}
-              />
+          <div className="col-md-6 col-sm-11 columnas">
+            <div>
+              <img
+                alt='todolist'
+                width = '100%'
+                src={resto}
+                />
+            </div>
+            <div>
+              <img
+                alt='todolist'
+                width = '100%'
+                src={weather}
+                />
+            </div>
+         
+            <div>
+              <img
+                alt='apple'
+                width = '100%'
+                src={apple}
+                />
+            </div>
+            
+            <div>
+              <img
+                alt='newsweek'
+                width = '100%'
+                src={newsweek}
+                />
+            </div>
           </div>
 
         </div>

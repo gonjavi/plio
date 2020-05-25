@@ -6,15 +6,16 @@ class NavBar extends Component {
     return (
       <nav className="container">
         <div className="row">
-          <h4 className="logo col-7">G. Javier</h4>
-          <div className="col-5">
-            <ul className="list-inline">
-              <Link to='/' className="list-inline-item menu"> Home</Link>
+          
+            <h4 className="logo col-lg-7 col-md-6 col-sm-6">G. Javier</h4>
+          
+          
+            <ul className="list-inline col-lg-5 col-md-6 col-sm-6 text-center">
+              <Link to='/' className="list-inline-item menu">Home</Link>
               <Link to='/about' className="list-inline-item menu">About</Link>
               <li className="list-inline-item">Blog</li>
-              <li className="list-inline-item"></li>
             </ul>
-          </div>
+          
         </div>
        
       </nav>
