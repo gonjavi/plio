@@ -9,8 +9,8 @@ class NavBar extends Component {
           <h4 className="logo col-7">G. Javier</h4>
           <div className="col-5">
             <ul className="list-inline">
-              <Link to='/' className="list-inline-item"> Home</Link>
-              <Link to='/about' className="list-inline-item">About</Link>
+              <Link to='/' className="list-inline-item menu"> Home</Link>
+              <Link to='/about' className="list-inline-item menu">About</Link>
               <li className="list-inline-item">Blog</li>
               <li className="list-inline-item"></li>
             </ul>

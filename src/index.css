@@ -31,6 +31,12 @@ nav {
   height: 80px;
   vertical-align: middle;
 }
+.menu {
+  width: 20%;
+  height: 79px;
+  color: black;
+}
+
 .name {
   vertical-align: middle;
 }
@@ -41,4 +47,20 @@ nav {
 
 hr {
   margin: 10px, 622px;
+}
+
+.letrasup {
+  height: 60px;
+  padding: 15px;
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+
+.letras {
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.foot{
+   margin-bottom: 100px;
 }
