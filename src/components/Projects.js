@@ -17,7 +17,7 @@ class Projects extends Component {
         <hr />
         <br />
         <div className="row">
-          <div className="col-12 text-center"><p>SELECTED WORK</p></div>
+          <div className="col-12 text-center selected"><p>SELECTED WORK</p></div>
         </div>
 
         <div className="row">
