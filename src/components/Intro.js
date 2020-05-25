@@ -5,8 +5,8 @@ class Intro extends Component {
     return (
       <div className="container">
         <div className="row">
-          <p className="intro">G. Javier</p>
-          <p className="intro">I'm Gonzalo, <span>Software Engineer/Full-stack Developer.</span> Passionate about solving problems and learning new things. </p>
+          <p className="intro col-12 offset-lg-1">G. Javier</p>
+          <p className="intro col-9 offset-lg-1">I'm Gonzalo, <span>Software Engineer/Full-stack Developer.</span> Passionate about solving problems and learning new things. </p>
         </div>
         
       </div>
