@@ -56,10 +56,98 @@ hr {
 }
 
 
-img {
-  margin: 30px;
+
+.img {
+  margin-bottom: 50px;
   border-radius: 25px;
 }
+.img1 {
+  position: relative;
+  width:100%;
+  height:400px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background: url(img/todolist.png);
+}
+.text-img {
+  position:relative;
+  top:10%;
+  left: 5%;
+}
+
+.text-img p{
+  color:white;
+}
+
+.background-gradient{
+  position: absolute;
+  bottom: 0;
+  border-radius: 25px;
+  height: 25%;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,.4) 0, rgba(0, 0, 0, .3) 50%, rgba(0,0,0,.7) 51%, rgba(0,0,0,.5) 100%);
+}
+.img2 {
+  position: relative;
+  width:100%;
+  height:400px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background: url(img/facebook.png);
+}
+.img3 {
+  position: relative;
+  width:100%;
+  height:400px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background: url(img/medium2.png);
+}
+.img4 {
+  position: relative;
+  width:100%;
+  height:400px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background: url(img/newyork.png);
+}
+.img5 {
+  position: relative;
+  width:100%;
+  height:400px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background: url(img/resto.png);
+}
+.img6 {
+  position: relative;
+  width:100%;
+  height:400px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background: url(img/weather.png);
+}
+.img7 {
+  position: relative;
+  width:100%;
+  height:400px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background: url(img/apple.png);
+}
+.img8 {
+  position: relative;
+  width:100%;
+  height:400px;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background: url(img/newsweek.png);
+}
+
+
+
+
+
 .letrasup {
   height: 60px;
   padding: 15px;

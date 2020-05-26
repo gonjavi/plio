@@ -1,13 +1,4 @@
 import React, { Component } from 'react';
-import todolist from '../img/todolist.png';
-import facebook from '../img/facebook.png';
-import resto from '../img/resto.png';
-import weather from '../img/weather.png';
-import medium1 from '../img/medium1.png';
-import newsweek from '../img/newsweek.png';
-import newyork from '../img/newyork.png';
-import apple from '../img/apple.png';
-
 
 class Projects extends Component {
 
@@ -25,39 +16,55 @@ class Projects extends Component {
           <div className="col-md-6 col-sm-12 columnas">
             <div>
               <a target="_blank" rel="noopener noreferrer" href="https://gonjavi.github.io/JavascriptTodoList/">
-                <img
-                  alt='todolist'
-                  width = '100%'
-                  src={todolist}
-                />
-              </a>
+                <div className="img img1">
+                  <div class="background-gradient">
+                    <div class="text-img">
+                      <p>JavaScript</p>
+                      <p>PRODUCT - TODOLIST</p>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </a>                
             </div>
 
             <div>
               <a target="_blank" rel="noopener noreferrer" href="https://bookfaces1.herokuapp.com/">
-                <img
-                  alt='facebookapp'
-                  width = '100%'
-                  src={facebook}
-                  />
+                <div className="img img2">
+                    <div class="background-gradient">
+                      <div class="text-img">
+                        <p>Ruby on Rails</p>
+                        <p>PRODUCT - FACEBOOKAPP</p>
+                        <p>JavaScript</p>
+                      </div>
+                    </div>
+                  </div>
                 </a>
             </div>
             <div className="">
               <a target="_blank" rel="noopener noreferrer" href="https://gonjavi.github.io/cssframework/">
-                <img
-                  alt='medium'
-                  width = '100%'
-                  src={medium1}
-                  />
+                <div className="img img3">
+                    <div class="background-gradient">
+                      <div class="text-img">
+                        <p>HTML CSS3</p>
+                        <p>PRODUCT - MEDIUM</p>
+                        <p></p>
+                      </div>
+                    </div>
+                  </div>
               </a>
             </div>
             <div className="">
               <a target="_blank" rel="noopener noreferrer" href="https://gonjavi.github.io/HTML5CSS3NewYorkTimes/">
-                <img
-                  alt='newyork'
-                  width = '100%'
-                  src={newyork}
-                  />
+                <div className="img img4">
+                  <div class="background-gradient">
+                    <div class="text-img">
+                      <p>HTML CSS3</p>
+                      <p>PRODUCT - NEW YORK TIMES</p>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
               </a>
             </div>
 
@@ -65,40 +72,56 @@ class Projects extends Component {
           <div className="col-md-6 col-sm-11 columnas">
             <div>
             <a target="_blank" rel="noopener noreferrer" href="https://gonjavi.github.io/JavascriptRestaurantPage/">
-              <img
-                alt='restaurant'
-                width = '100%'
-                src={resto}
-                />
+               <div className="img img5">
+                  <div class="background-gradient">
+                    <div class="text-img">
+                      <p>JavaScript</p>
+                      <p>PRODUCT - RESTAURANT</p>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
               </a>
             </div>
             <div>
               <a target="_blank" rel="noopener noreferrer" href="https://gonjavi.github.io/JavaScriptWeatherApp/">
-                <img
-                  alt='weatherapp'
-                  width = '100%'
-                  src={weather}
-                  />
+                <div className="img img6">
+                  <div class="background-gradient">
+                    <div class="text-img">
+                      <p>JavaScript</p>
+                      <p>PRODUCT - WEATHERAPP</p>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
               </a>
             </div>
          
             <div>
               <a target="_blank" rel="noopener noreferrer" href="https://gonjavi.github.io/HTML5CSS3ApplePage/">
-                <img
-                  alt='apple'
-                  width = '100%'
-                  src={apple}
-                  />
+              <div className="img img7">
+                  <div class="background-gradient">
+                    <div class="text-img">
+                      <p>HTML - CSS3</p>
+                      <p>PRODUCT - APPLE</p>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
               </a>
             </div>
             
             <div>
               <a target="_blank" rel="noopener noreferrer" href="https://gonjavi.github.io/HMTL5BOOTSTRAPNewsweek/">
-                <img
-                  alt='newsweek'
-                  width = '100%'
-                  src={newsweek}
-                  />
+              <div className="img img8">
+                  <div class="background-gradient">
+                    <div class="text-img">
+                      <p>HTML -CSS3</p>
+                      <p>PRODUCT - NEWSWEEK</p>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
               </a>
             </div>
           </div>
