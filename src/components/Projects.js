@@ -7,7 +7,6 @@ import medium1 from '../img/medium1.png';
 import newsweek from '../img/newsweek.png';
 import newyork from '../img/newyork.png';
 import apple from '../img/apple.png';
-import { Link } from 'react-router-dom';
 
 
 class Projects extends Component {
