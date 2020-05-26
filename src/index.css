@@ -95,8 +95,13 @@ img {
   ul.list-inline.letrasup {
     width: 100%;
     padding-right: 0;
+    font-size: 14px;
+    padding-bottom: 0;
+    height: 40px;
+    margin-top: 0;
   }
   .letras {
     font-size: 14px;
+    height: 16px;
   }
 }

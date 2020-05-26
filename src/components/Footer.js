@@ -6,7 +6,7 @@ class Footer extends Component {
       <div className="container foot">
         <div className="row">
           <ul className="list-inline letrasup">
-            <li className="list-inline-item">Hello at GJavier.co</li>
+            <li className="list-inline-item">Hello at gjavier.co</li>
             <li className="list-inline-item">in</li>
             <li className="list-inline-item">github</li>
             <li className="list-inline-item">Medium</li>
