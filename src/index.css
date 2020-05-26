@@ -58,6 +58,7 @@ hr {
 
 img {
   margin: 30px;
+  border-radius: 25px;
 }
 .letrasup {
   height: 60px;
