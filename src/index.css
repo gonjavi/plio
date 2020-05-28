@@ -167,11 +167,12 @@ hr {
 
 @media only screen and (max-width: 576px) {
   h4.logo {
-    width: 40%;
+    width: 100%;
+    text-align: center;
   }
 
   ul.list-inline {
-    width: 60%;
+    width: 100%;
   }
 
   img {
