@@ -13,7 +13,8 @@ class NavBar extends Component {
             <ul className="list-inline col-lg-5 col-md-6 col-sm-6 text-center">
               <Link to='/' className="list-inline-item menu">Home</Link>
               <Link to='/about' className="list-inline-item menu">About</Link>
-              <li className="list-inline-item">Blog</li>
+              <a target="_blank" rel="noopener noreferrer" className="menu" href="https://medium.com/@javiercaliescali">Medium</a>
+              <Link to='/contact' className="list-inline-item menu">Contact</Link>
             </ul>
           
         </div>
