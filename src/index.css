@@ -164,7 +164,9 @@ hr {
 .foot{
    margin-bottom: 100px;
 }
-
+.contact {
+  height: 90%;
+}
 @media only screen and (max-width: 576px) {
   h4.logo {
     width: 100%;

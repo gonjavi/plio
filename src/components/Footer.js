@@ -8,8 +8,9 @@ class Footer extends Component {
           <ul className="list-inline letrasup">
             <li className="list-inline-item">Hello at gjavier.co</li>
             <li className="list-inline-item">in</li>
-            <li className="list-inline-item">github</li>
-            <li className="list-inline-item">Medium</li>
+            <li className="list-inline-item"> <a target="_blank" rel="noopener noreferrer" className="menu" href="https://github.com/gonjavi">Github</a></li>
+            <li className="list-inline-item"> <a target="_blank" rel="noopener noreferrer" className="menu" href="https://medium.com/@javiercaliescali">Medium</a></li>
+            <li className="list-inline-item"> <a target="_blank" rel="noopener noreferrer" className="menu" href="https://www.linkedin.com/in/g-mancillla">LinkedIn</a></li>
           </ul>
         </div>
         <div className="letras">Crafted using ReactJS, Bootstrap, and Visual Studio Code.</div>
