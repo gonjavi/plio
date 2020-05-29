@@ -14,18 +14,18 @@ class Projects extends Component {
         <div className="row">
         
           <div className="col-md-6 col-sm-12 columnas">
-            <div>
-              <a target="_blank" rel="noopener noreferrer" href="https://gonjavi.github.io/JavascriptTodoList/">
-                <div className="img img1">
+          <div>
+              <a target="_blank" rel="noopener noreferrer" href="https://gonjavi.github.io/HMTL5BOOTSTRAPNewsweek/">
+              <div className="img img8">
                   <div class="background-gradient">
                     <div class="text-img">
-                      <p>JavaScript</p>
-                      <p>PRODUCT - TODOLIST</p>
+                      <p>HTML -CSS3</p>
+                      <p>PRODUCT - NEWSWEEK</p>
                       <p></p>
                     </div>
                   </div>
                 </div>
-              </a>                
+              </a>
             </div>
 
             <div>
@@ -54,20 +54,7 @@ class Projects extends Component {
                   </div>
               </a>
             </div>
-            <div className="">
-              <a target="_blank" rel="noopener noreferrer" href="https://gonjavi.github.io/HTML5CSS3NewYorkTimes/">
-                <div className="img img4">
-                  <div class="background-gradient">
-                    <div class="text-img">
-                      <p>HTML CSS3</p>
-                      <p>PRODUCT - NEW YORK TIMES</p>
-                      <p></p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-
+            
           </div>
           <div className="col-md-6 col-sm-11 columnas">
             <div>
@@ -111,19 +98,7 @@ class Projects extends Component {
               </a>
             </div>
             
-            <div>
-              <a target="_blank" rel="noopener noreferrer" href="https://gonjavi.github.io/HMTL5BOOTSTRAPNewsweek/">
-              <div className="img img8">
-                  <div class="background-gradient">
-                    <div class="text-img">
-                      <p>HTML -CSS3</p>
-                      <p>PRODUCT - NEWSWEEK</p>
-                      <p></p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
+           
           </div>
 
         </div>
