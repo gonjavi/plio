@@ -1,0 +1,38 @@
+h1 {
+  margin-bottom: 5%;
+}
+.contact {
+  margin-bottom: 5%;
+}
+
+.picture {
+  height: 300px;
+}
+.first {
+  margin-top: 14%;
+}
+.list {
+  line-height: 3;
+}
+@media only screen and (max-width: 991px) {
+  .first {
+    margin-top: 20%;
+  }
+  h5{
+    font-size: 19px;
+  }
+  li a:hover{
+    text-decoration: none;
+  }
+
+  
+}
+@media only screen and (max-width: 576px) {
+  .contact {
+    display: flex;
+    margin-bottom: 2%;
+  }
+  .picture{
+    margin-bottom: 40px;
+  }
+}

@@ -7,20 +7,18 @@ class About extends Component {
         
         <div className="row">
           <h1 className="col-12 text-center">About</h1>
-          <div className="col-10 offset-1">
+          <div className="col-10 offset-1 texto">
           Software Engineer/Full-stack Developer
           Main stack: Ruby on Rails, JavaScript, React and Redux.
           Open to new full-stack development opportunities in global Tech.
           </div>
-         
-          
         </div>
         <div className="row">
-        <div className="col-10 offset-1 ">
+        <div className="col-10 offset-1 texto">
           A multi-skilled web developer who prioritizes commitment, responsibility, teamwork, writing/speaking skills, and a passion for development.
 
           </div>
-          <div className="col-10 offset-1">
+          <div className="col-10 offset-1 texto">
           I've developed knowledge in:
           <ul>
             <li>Full-stack development (Ruby on Rails, JavaScript, React)</li>
