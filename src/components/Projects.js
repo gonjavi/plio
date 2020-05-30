@@ -14,19 +14,7 @@ class Projects extends Component {
         <div className="row">
         
           <div className="col-md-6 col-sm-12 columnas">
-          <div>
-              <a target="_blank" rel="noopener noreferrer" href="https://gonjavi.github.io/HMTL5BOOTSTRAPNewsweek/">
-              <div className="img img8">
-                  <div class="background-gradient">
-                    <div class="text-img">
-                      <p>HTML -CSS3</p>
-                      <p>PRODUCT - NEWSWEEK</p>
-                      <p></p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
+         
 
             <div>
               <a target="_blank" rel="noopener noreferrer" href="https://bookfaces1.herokuapp.com/">
@@ -41,17 +29,17 @@ class Projects extends Component {
                   </div>
                 </a>
             </div>
-            <div className="">
-              <a target="_blank" rel="noopener noreferrer" href="https://gonjavi.github.io/cssframework/">
-                <div className="img img3">
-                    <div class="background-gradient">
-                      <div class="text-img">
-                        <p>HTML CSS3</p>
-                        <p>PRODUCT - MEDIUM</p>
-                        <p></p>
-                      </div>
+            <div>
+              <a target="_blank" rel="noopener noreferrer" href="https://gonjavi.github.io/HTML5CSS3ApplePage/">
+              <div className="img img7">
+                  <div class="background-gradient">
+                    <div class="text-img">
+                      <p>HTML - CSS3</p>
+                      <p>PRODUCT - APPLE</p>
+                      <p></p>
                     </div>
                   </div>
+                </div>
               </a>
             </div>
             
@@ -84,19 +72,7 @@ class Projects extends Component {
               </a>
             </div>
          
-            <div>
-              <a target="_blank" rel="noopener noreferrer" href="https://gonjavi.github.io/HTML5CSS3ApplePage/">
-              <div className="img img7">
-                  <div class="background-gradient">
-                    <div class="text-img">
-                      <p>HTML - CSS3</p>
-                      <p>PRODUCT - APPLE</p>
-                      <p></p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
+            
             
            
           </div>
