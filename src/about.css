@@ -2,3 +2,29 @@
 .texto {
  line-height: 1.8;
 }
+.picture1 {
+  height: auto;
+  margin-bottom: 30px;
+}
+.pictureabout {
+  width: 50%;
+  height: 100%;
+  margin-left: 15%;
+}
+.texto {
+  margin-top: 15px;
+}
+
+
+@media only screen and (max-width: 991px) {
+  .picture1 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .pictureabout {
+    width: 0;
+    height: 0;
+  }
+ 
+}
