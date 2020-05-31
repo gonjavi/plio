@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import facebook from '../img/facebook.png';
-import newsweek from '../img/newsweek.jpg';
-import resto from '../img/resto.png';
-import weather from '../img/weather1.png';
+import facebook from '../img/facebook3.png';
+import newsweek from '../img/newsweek4.png';
+import resto from '../img/resto1.png';
+import weather from '../img/weather3.png';
 
 class Projects extends Component {
 
