@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import morgan from '../img/morgan.jpg';
 import us from '../img/us.jpg';
 
 class About extends Component {
