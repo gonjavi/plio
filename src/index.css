@@ -70,8 +70,10 @@ img {
   left: 5%;
 }
 
-.text-img p{
-  color:white;
+.text-img p, a{
+  color: white;
+  line-height: 0.9;
+
 }
 
 .background-gradient{
@@ -80,7 +82,7 @@ img {
   border-radius: 25px;
   height: 25%;
   width: 100%;
-  background: linear-gradient(rgba(0,0,0,.4) 0, rgba(0, 0, 0, .3) 50%, rgba(0,0,0,.7) 51%, rgba(0,0,0,.5) 100%);
+  background: linear-gradient(rgba(0,0,0,.8) 0, rgba(0, 0, 0, .3) 50%, rgba(0,0,0,.7) 51%, rgba(0,0,0,.5) 100%);
 }
 .img2 {
   position: relative;

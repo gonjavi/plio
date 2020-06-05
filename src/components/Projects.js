@@ -21,8 +21,7 @@ class Projects extends Component {
          
 
             <div>
-              <a target="_blank" rel="noopener noreferrer" href="https://bookfaces1.herokuapp.com/">
-                <div className="img img2">
+              <div className="img img2">
                   <img    
                     alt='facebookapp'
                     width = '80%'
@@ -31,18 +30,18 @@ class Projects extends Component {
                   />
                     <div class="background-gradient">
                       <div class="text-img">
-                     
-                      <a target="_blank" rel="noopener noreferrer" href="https://github.com/gonjavi/railsfacebookapp">
                         <p>Ruby on Rails - JavaScript</p>
-                        <p>PRODUCT - FACEBOOKAPP - GITHUB</p>
-                      </a>
+                        <p>FACEBOOKAPP - 
+                          <a target="_blank" rel="noopener noreferrer" href="https://bookfaces1.herokuapp.com/">DEMO LINK</a>
+                          <a target="_blank" rel="noopener noreferrer" href="https://github.com/gonjavi/railsfacebookapp">GITHUB</a>
+                        </p>
+                        <p>A simple Facebook app developed with the framework Ruby on Rails.</p>
                       </div>
                     </div>
                   </div>
-                </a>
             </div>
             <div>
-              <a target="_blank" rel="noopener noreferrer" href="https://gonjavi.github.io/HMTL5BOOTSTRAPNewsweek/">
+              
               <div className="img img2">
                 <img    
                     alt='facebookapp'
@@ -52,15 +51,15 @@ class Projects extends Component {
                   />
                   <div class="background-gradient">
                     <div class="text-img">
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/gonjavi/HMTL5BOOTSTRAPNewsweek">
                       <p>HTML - CSS3</p>
-                      <p>PRODUCT - NEWSWEEK - GITHUB</p>
-                      <p></p>
-                      </a>
+                      <p>NEWSWEEK - 
+                         <a target="_blank" rel="noopener noreferrer" href="https://gonjavi.github.io/HMTL5BOOTSTRAPNewsweek/"> DEMO LINK - </a>
+                         <a target="_blank" rel="noopener noreferrer" href="https://github.com/gonjavi/HMTL5BOOTSTRAPNewsweek">GTHUB</a>
+                      </p>
+                      <p>This project is based on the Newsweek site.</p>
                     </div>
                   </div>
-                </div>
-              </a>
+                </div>              
             </div>
 
             
