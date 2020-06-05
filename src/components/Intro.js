@@ -6,7 +6,7 @@ class Intro extends Component {
       <div className="container">
         <div className="row">
           <p className="intro col-12 offset-lg-1">G. Javier</p>
-          <p className="intro col-lg-9 offset-lg-1 col-sm-12">I'm Gonzalo, <span>Software Engineer/Full-stack Developer.</span> Living in Cali, passionate about solving problems. </p>
+          <p className="intro col-lg-9 offset-lg-1 col-sm-12">I'm Gonzalo, <span> a software engineer and full-stack developer</span> living in Cali. I'm passionate about solving problems. </p>
         </div>
         
       </div>
