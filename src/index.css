@@ -75,7 +75,10 @@ img {
   line-height: 0.9;
 
 }
-
+.text-img a:hover{
+  text-decoration: none;
+  color: white;
+}
 .background-gradient{
   position: absolute;
   bottom: 0;
