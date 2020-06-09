@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import facebook from '../img/facebook3.png';
 import newsweek from '../img/newsweek4.png';
 import resto from '../img/resto2.png';
 import weather from '../img/weather1.png';
 import events from '../img/events3.png';
 import calculator from '../img/calculator.png';
+import face from '../img/face.gif';
 
 class Projects extends Component {
 
@@ -46,7 +46,7 @@ class Projects extends Component {
               
               <div className="img img2">
                 <img    
-                    alt='facebookapp'
+                    alt='newsweek'
                     width = '80%'
                     height = '80%'
                     src={newsweek}
@@ -94,7 +94,7 @@ class Projects extends Component {
                     alt='facebookapp'
                     width = '80%'
                     height = '80%'
-                    src={facebook}
+                    src={face}
                   />
                     <div class="background-gradient">
                       <div class="text-img">
