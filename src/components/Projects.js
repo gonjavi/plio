@@ -56,7 +56,7 @@ class Projects extends Component {
                       <p>HTML - CSS3</p>
                       <p>NEWSWEEK - 
                          <a target="_blank" rel="noopener noreferrer" href="https://gonjavi.github.io/HMTL5BOOTSTRAPNewsweek/"> DEMO LINK - </a>
-                         <a target="_blank" rel="noopener noreferrer" href="https://github.com/gonjavi/HMTL5BOOTSTRAPNewsweek">GTHUB</a>
+                         <a target="_blank" rel="noopener noreferrer" href="https://github.com/gonjavi/HMTL5BOOTSTRAPNewsweek">GITHUB</a>
                       </p>
                       <p>This project is based on the Newsweek site.</p>
                     </div>
@@ -75,11 +75,11 @@ class Projects extends Component {
                     <div class="background-gradient">
                       <div class="text-img">
                         <p>JavaScript</p>
-                        <p>EVENTS APP - 
+                        <p>RESTAURANT PAGE - 
                           <a target="_blank" rel="noopener noreferrer" href="https://gonjavi.github.io/JavascriptRestaurantPage/"> DEMO LINK -</a>
                           <a target="_blank" rel="noopener noreferrer" href="https://github.com/gonjavi/javascriptrestaurantpage"> GITHUB</a>
                         </p>
-                        <p>The entire content of the website is generated with JavaScript.</p>
+                        <p>The entire content is generated with JavaScript.</p>
                       </div>
                     </div>
                   </div>
@@ -123,9 +123,9 @@ class Projects extends Component {
                       <p>JavaScript - Bootstrap</p>
                       <p>WEATHER APP - 
                         <a target="_blank" rel="noopener noreferrer" href="https://gonjavi.github.io/JavaScriptWeatherApp/"> DEMO LINK - </a>
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/gonjavi/javascriptweatherapp">GTHUB</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/gonjavi/javascriptweatherapp">GITHUB</a>
                       </p>
-                      <p>A weather app that pulls from the OpenWeatherMap API.</p>
+                      <p>A weather app that pulls from the OpenWeather API.</p>
                     </div>
                   </div>
                 </div>
@@ -144,10 +144,10 @@ class Projects extends Component {
                       <div class="text-img">
                         <p>React - CSS3</p>
                         <p>CALCULATOR - 
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/gonjavi/reactcalculator/"> DEMO LINK - </a>
-                         <a target="_blank" rel="noopener noreferrer" href="https://gonreactapp.herokuapp.com/">GTHUB</a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://gonreactapp.herokuapp.com/"> DEMO LINK - </a>
+                         <a target="_blank" rel="noopener noreferrer" href="https://github.com/gonjavi/reactcalculator/">GITHUB</a>
                         </p>
-                        <p>A calculator app built with ReactJS.</p>
+                        <p>A calculator app built with React.</p>
                       </div>
                     </div>
                   </div>
