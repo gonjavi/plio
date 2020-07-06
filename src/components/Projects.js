@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import bookstore from '../img/bookstore.png';
 import newsweek from '../img/newsweek4.png';
 import resto from '../img/resto2.png';
 import weather from '../img/weather1.png';
 import events from '../img/events3.png';
 import calculator from '../img/calculator.png';
 import face from '../img/face.gif';
+import capstone from '../img/capstone.png';
 
 class Projects extends Component {
 
@@ -20,7 +22,27 @@ class Projects extends Component {
         <div className="row">
         
           <div className="col-md-6 col-sm-12 columnas">
-         
+
+          <div>
+              <div className="img img2">
+                  <img    
+                    alt='bookstore'
+                    width = '80%'
+                    height = '80%'
+                    src={bookstore}
+                  />
+                    <div class="background-gradient">
+                      <div class="text-img">
+                        <p>React, Redux, CSS, and Bootstrap</p>
+                        <p>BOOKSTORE APP - 
+                          <a target="_blank" rel="noopener noreferrer" href="https://bookstore-g.herokuapp.com/"> DEMO LINK -</a>
+                          <a target="_blank" rel="noopener noreferrer" href="https://github.com/gonjavi/reactBookStore/"> GITHUB</a>
+                        </p>
+                        <p>A Book Store app </p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
 
             <div>
               <div className="img img2">
@@ -88,6 +110,27 @@ class Projects extends Component {
           {/* ------ */}
           <div className="col-md-6 col-sm-11 columnas">
            
+          <div>
+              <div className="img img2">
+                  <img    
+                    alt='restaurant app'
+                    width = '80%'
+                    height = '80%'
+                    src={capstone}
+                  />
+                    <div class="background-gradient">
+                      <div class="text-img">
+                        <p>React, Redux, API, CSS, and Bootstrap</p>
+                        <p>RESTAURANT APP - 
+                          <a target="_blank" rel="noopener noreferrer" href="https://reactcapstonegon.herokuapp.com/"> DEMO LINK -</a>
+                          <a target="_blank" rel="noopener noreferrer" href="https://github.com/gonjavi/reactCapstoneProject/tree/master"> GITHUB</a>
+                        </p>
+                        <p>A Restaurant app that pulls the data from the MealsDB API. </p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
             <div>
               <div className="img img2">
                   <img    
