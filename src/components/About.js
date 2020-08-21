@@ -18,17 +18,16 @@ class About extends Component {
           </div>
 
           <div className="col-lg-6 col-md-12 col-sm-12  texto">
-          Software Engineer/Full-stack Developer
-          Main stack: Ruby on Rails, JavaScript, React and Redux.
-          Open to new full-stack development opportunities in global Tech.
-          
-        
+            <div className="mb-3">
+              Software Engineer/Full-stack Developer
+              Main stack: Ruby on Rails, JavaScript, React and Redux.
+              Open to new full-stack development opportunities in global Tech.
+            </div>
        
-        <div >
-          A multi-skilled web developer who prioritizes commitment, responsibility, teamwork, writing/speaking skills, and a passion for development.
-
-          </div>
-          <div >
+            <div className="mb-3">
+              A multi-skilled web developer who prioritizes commitment, responsibility, teamwork, writing/speaking skills, and a passion for development.
+            </div>
+          <div>
           I've developed knowledge in:
           <ul>
             <li>Full-stack development (Ruby on Rails, JavaScript, React)</li>
