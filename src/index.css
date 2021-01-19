@@ -17,7 +17,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+/*  animation */
 @keyframes moverIzquierda{
   0%{
       opacity: 0;
@@ -45,7 +45,7 @@ code {
 @keyframes arriba{
   0%{
       opacity: 0;
-      transform: translateY(100px);
+      transform: translateY(65px);
   }
 
   100%{
@@ -54,9 +54,16 @@ code {
   }
 }
 
+ /* animation end */
 .logo {
   color: green;
   animation: moverIzquierda 1s ease-in;
+  transition: transform .2s;
+}
+.logo:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
 }
 .Imgonzalo {
   animation: moverDerecha 1s ease-in;
@@ -84,6 +91,12 @@ ul.list-inline {
 .selected {
   margin-top: 30px;
   margin-bottom: 30px;
+  transition: transform .4s;
+}
+.selected:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
 }
 .name {
   vertical-align: middle;
@@ -224,6 +237,7 @@ img {
     margin-bottom: 30px;
     font-size: 12px;
   }
+  
   .text-img p, a{
     color: white;
     line-height: 0.6;
