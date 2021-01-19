@@ -17,8 +17,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@keyframes moverIzquierda{
+  0%{
+      opacity: 0;
+      transform: translateX(-200px);
+  }
+
+  100%{
+      opacity: 1;
+      transform: translate(0);
+  }
+}
+
+@keyframes moverDerecha{
+  0%{
+      opacity: 0;
+      transform: translateX(200px);
+  }
+
+  100%{
+      opacity: 1;
+      transform: translate(0);
+  }
+}
+
+@keyframes arriba{
+  0%{
+      opacity: 0;
+      transform: translateY(100px);
+  }
+
+  100%{
+      opacity: 1;
+      transform: translate(0);
+  }
+}
+
 .logo {
   color: green;
+  animation: moverIzquierda 1s ease-in;
+}
+.Imgonzalo {
+  animation: moverDerecha 1s ease-in;
+}
+
+.gjavier {
+  animation: arriba 1s ease-in;
 }
 span {
   color: green;
