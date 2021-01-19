@@ -57,7 +57,7 @@ code {
  /* animation end */
 .logo {
   color: green;
-  animation: moverIzquierda 1s ease-in;
+  animation: moverIzquierda 1.5s ease-in;
   transition: transform .2s;
 }
 .logo:hover {
@@ -65,12 +65,16 @@ code {
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1); 
 }
+.menus-todos {
+  animation: moverDerecha 1.5s ease-in;
+}
+
 .Imgonzalo {
-  animation: moverDerecha 1s ease-in;
+  animation: moverDerecha 1.5s ease-in;
 }
 
 .gjavier {
-  animation: arriba 1s ease-in;
+  animation: arriba 1.2s ease-in;
 }
 span {
   color: green;
