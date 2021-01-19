@@ -19,7 +19,7 @@ class Contact extends Component {
           </div>
           <div className="col-md-6">
             <ul className="datos">
-              <li className="list"><p className="first"><b>Email:</b>gmancillapaz@yahoo.com</p></li>
+              <li className="list"><p className="first"><b>Email: </b>  gmancillapaz@gmail.com</p></li>
               <li className="list"><p><b>Telephone:</b> +573137739648</p></li>
               <li className="list"><p><b>LinkedIn:</b> <a target="_blank" rel="noopener noreferrer" className="linke" href="http://www.linkedin.com/in/g-mancillla/">g-javier-mancilla</a></p></li>
             </ul>
