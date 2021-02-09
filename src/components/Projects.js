@@ -5,7 +5,7 @@ import resto from '../img/resto2.png';
 import weather from '../img/weather1.png';
 import events from '../img/events3.png';
 import calculator from '../img/calculator.png';
-import face from '../img/face1.png';
+import face from '../img/face2.png';
 import capstone from '../img/capstone.png';
 
 class Projects extends Component {
