@@ -258,3 +258,15 @@ img {
     font-size: 10px;
   }
 }
+
+
+
+.contendor {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.project {
+  background: green;
+  margin: 5px;
+}

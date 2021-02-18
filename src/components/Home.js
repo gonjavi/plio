@@ -1,7 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import Intro from './Intro';
 import Projects from './Projects';
-
 
 class Home extends Component {
   render() {
@@ -10,7 +9,7 @@ class Home extends Component {
         <Intro />
         <Projects />
       </div>
-    )
+    );
   }
 }
 
