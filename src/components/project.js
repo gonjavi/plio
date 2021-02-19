@@ -3,9 +3,18 @@ import PropTypes from 'prop-types';
 
 const Project = props => {
   const { project } = props;
-  const { id, img } = project;
+  const {
+    id,
+    titulo,
+    technologies,
+    description,
+    demoLink,
+    githubLink,
+    img,
+  } = project;
+
   return (
-    <div className="img img2" key={id}>
+    <div className="img img2 project" key={id}>
       <img
         alt=""
         width="80%"
@@ -14,12 +23,17 @@ const Project = props => {
       />
       <div className="background-gradient">
         <div className="text-img">
-          <p>React, Redux, CSS, and Bootstrap</p>
-          <p>BOOKSTORE APP - 
-            <a target="_blank" rel="noopener noreferrer" href="https://bookstore-g.herokuapp.com/"> DEMO LINK -</a>
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/gonjavi/reactBookStore/"> GITHUB</a>
+          <p>{technologies}</p>
+          <p>
+            {titulo}
+            {' '}
+            -
+            <a target="_blank" rel="noopener noreferrer" href={demoLink}> DEMO LINK -</a>
+            <a target="_blank" rel="noopener noreferrer" href={githubLink}> GITHUB</a>
           </p>
-          <p>A Book Store app </p>
+          <p>
+            {description}
+          </p>
         </div>
       </div>
     </div>
@@ -28,6 +42,6 @@ const Project = props => {
 
 Project.propTypes = {
   project: PropTypes.objectOf(PropTypes.any).isRequired,
-}
+};
 
 export default Project;

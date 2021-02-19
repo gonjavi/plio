@@ -10,6 +10,11 @@
   width: 50%;
   height: 100%;
   margin-left: 15%;
+  transform: scale(1);
+  transition: transform .05s ease-in;
+}
+.pictureabout:hover {
+  transform: scale(1.1);
 }
 .texto {
   margin-top: 15px;
