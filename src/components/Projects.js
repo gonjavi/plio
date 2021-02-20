@@ -15,7 +15,15 @@ const Projects = () => {
       <div className="row">
         <div className="col-12 text-center selected"><p>SELECTED WORK</p></div>
       </div>
-
+      <div className="row">
+        <ul className="project-list">
+          <li>React</li>
+          <li>Node</li>
+          <li>Rails</li>
+          <li>HTML-CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
       <div className="row contenedor">
         {projectList}
       </div>
