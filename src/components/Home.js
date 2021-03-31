@@ -1,10 +1,8 @@
 import React from 'react';
-import Intro from './Intro';
-import Projects from './Projects';
+import Projects from '../container/Projects';
 
 const Home = () => (
   <div>
-    <Intro />
     <Projects />
   </div>
 );

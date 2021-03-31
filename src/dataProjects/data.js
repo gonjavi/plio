@@ -74,7 +74,7 @@ const dataProjects = [
   {
     id: 7,
     technologies: 'React - CSS3',
-    titulo: 'Bookstore App',
+    titulo: 'CALCULATOR APP',
     description: 'A calculator app built with React.',
     demoLink: 'https://gonreactapp.herokuapp.com/',
     githubLink: 'https://github.com/gonjavi/reactcalculator/',

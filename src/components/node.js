@@ -1,8 +1,9 @@
 import React from 'react';
-import dataProjects from '../dataProjects/data';
+import { NavLink } from 'react-router-dom';
+import dataProjects from '../dataProjects/data_node';
 import Project from './project';
 
-const Projects = () => {
+const Node = () => {
   const projectList = dataProjects.map(
     project => (
       <Project project={project} key={project.id} />
@@ -17,11 +18,11 @@ const Projects = () => {
       </div>
       <div className="row">
         <ul className="project-list">
-          <li>React</li>
-          <li>Node</li>
-          <li>Rails</li>
-          <li>HTML-CSS</li>
-          <li>JavaScript</li>
+          <li><NavLink to="/react" className="lista">React</NavLink></li>
+          <li><NavLink to="/node" className="lista">Node</NavLink></li>
+          <li><NavLink to="/rails" className="lista">Rails</NavLink></li>
+          <li><NavLink to="/html-css" className="lista">HTML-CSS</NavLink></li>
+          <li><NavLink to="/javascript" className="lista">Javascript</NavLink></li>
         </ul>
       </div>
       <div className="row contenedor">
@@ -31,4 +32,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Node;

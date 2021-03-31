@@ -121,6 +121,10 @@ ul.list-inline {
   -webkit-transform: scale(1.2); /* Safari 3-8 */
   transform: scale(1.2); 
 }
+.lista {
+  display: block;
+  color: black;
+}
 .name {
   vertical-align: middle;
 }
