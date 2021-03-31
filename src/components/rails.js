@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import dataProjects from '../dataProjects/data_node';
+import dataProjects from '../dataProjects/data_rails';
 import Project from './project';
 
 const Rails = () => {
@@ -25,6 +25,9 @@ const Rails = () => {
           <li><NavLink to="/html-css" className="lista">HTML-CSS</NavLink></li>
           <li><NavLink to="/javascript" className="lista">Javascript</NavLink></li>
         </ul>
+      </div>
+      <div className="row contenedor">
+        {projectList}
       </div>
     </div>
   );

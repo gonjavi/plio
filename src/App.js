@@ -22,7 +22,7 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Route path="/react" component={Reacts} />
           <Route path="/node" component={Node} />
-          <Route path="/rails" component={Home} />
+          <Route path="/rails" component={Rails} />
           <Route path="/html-css" component={Home} />
           <Route path="/javascript" component={Home} />
         </Switch>
