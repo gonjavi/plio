@@ -19,10 +19,10 @@ const Projects = () => {
       <div className="row">
         <ul className="project-list">
           <li><NavLink to="/react" className="lista">React</NavLink></li>
-          <li><NavLink to="/node" className="lista">Node</NavLink></li>
-          <li><NavLink to="/rails" className="lista">Rails</NavLink></li>
           <li><NavLink to="/html-css" className="lista">HTML-CSS</NavLink></li>
+          <li><NavLink to="/rails" className="lista">Rails</NavLink></li>
           <li><NavLink to="/javascript" className="lista">Javascript</NavLink></li>
+          <li><NavLink to="/node" className="lista">Node</NavLink></li>
         </ul>
       </div>
       <div className="row contenedor">

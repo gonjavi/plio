@@ -36,8 +36,8 @@ const dataProjects = [
     technologies: 'HTML - CSS3 - JavaScript',
     titulo: 'ANIMATIONS',
     description: 'A page with CSS animations',
-    demoLink: 'https://gonjavi.github.io/html-css-final/',
-    githubLink: 'https://github.com/gonjavi/railsProductsApi',
+    demoLink: 'https://gonjavi.github.io/html-css-final-animaciones/',
+    githubLink: 'https://github.com/gonjavi/html-css-final',
     img: animacion1,
   },
 ];

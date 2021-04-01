@@ -1,9 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import dataProjects from '../dataProjects/data_react';
+import dataProjects from '../dataProjects/data_javascript';
 import Project from './project';
 
-const Reacts = () => {
+const Javascript = () => {
   const projectList = dataProjects.map(
     project => (
       <Project project={project} key={project.id} />
@@ -32,4 +32,4 @@ const Reacts = () => {
   );
 };
 
-export default Reacts;
+export default Javascript;

@@ -10,6 +10,7 @@ import Reacts from './components/react';
 import Node from './components/node';
 import Rails from './components/rails';
 import Html from './components/html';
+import Javascript from './components/javascript';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
           <Route path="/node" component={Node} />
           <Route path="/rails" component={Rails} />
           <Route path="/html-css" component={Html} />
-          <Route path="/javascript" component={Home} />
+          <Route path="/javascript" component={Javascript} />
         </Switch>
         <Footer />
       </div>
