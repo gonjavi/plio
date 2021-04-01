@@ -9,6 +9,7 @@ import Intro from './components/Intro';
 import Reacts from './components/react';
 import Node from './components/node';
 import Rails from './components/rails';
+import Html from './components/html';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
           <Route path="/react" component={Reacts} />
           <Route path="/node" component={Node} />
           <Route path="/rails" component={Rails} />
-          <Route path="/html-css" component={Home} />
+          <Route path="/html-css" component={Html} />
           <Route path="/javascript" component={Home} />
         </Switch>
         <Footer />
