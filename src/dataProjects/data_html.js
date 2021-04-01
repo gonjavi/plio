@@ -1,11 +1,14 @@
 import newyork from '../img/html/newyork.png';
+import apple from '../img/html/apple.png';
+import thenextweb from '../img/html/thenextweb.png';
+import animacion1 from '../img/html/animacion1.png';
 
 const dataProjects = [
   {
     id: 0,
     technologies: 'HTML - CSS3',
     titulo: 'NEW YORK',
-    description: 'An App that behaves similar to Eventbrite.',
+    description: 'A clone of the New york times page',
     demoLink: 'https://gonjavi.github.io/HTML5CSS3NewYorkTimes/',
     githubLink: 'https://github.com/gonjavi/HTML5CSS3NewYorkTimes',
     img: newyork,
@@ -14,28 +17,28 @@ const dataProjects = [
     id: 1,
     technologies: 'HTML - CSS3',
     titulo: 'APPLE PAGE',
-    description: 'A simple Facebook app.',
-    demoLink: 'https://bookfaces1.herokuapp.com/',
-    githubLink: 'https://github.com/gonjavi/railsfacebookapp',
-    img: newyork,
+    description: 'A Page Built with Backgrounds and Gradients',
+    demoLink: 'https://gonjavi.github.io/HTML5CSS3ApplePage/',
+    githubLink: 'https://github.com/gonjavi/HTML5CSS3ApplePage',
+    img: apple,
   },
   {
     id: 2,
     technologies: 'HTML - CSS3',
     titulo: 'THE NEXT WEB',
-    description: 'An sports tracking API',
-    demoLink: 'https://trackingapi-gon.herokuapp.com/api/v1/sports.json',
-    githubLink: 'https://github.com/gonjavi/RailsSportsTracking-API',
-    img: newyork,
+    description: 'A clone page of the next web',
+    demoLink: 'https://raw.githack.com/trox115/thenextweb/development/index.html',
+    githubLink: 'https://github.com/gonjavi/HTML5CSS3TheNextWeb',
+    img: thenextweb,
   },
   {
     id: 3,
-    technologies: 'HTML - CSS3',
-    titulo: 'PRODUCTS API',
-    description: 'An API for users with associations',
-    demoLink: 'https://products-categories-api.herokuapp.com/api/v1/users',
+    technologies: 'HTML - CSS3 - JavaScript',
+    titulo: 'ANIMATIONS',
+    description: 'A page with CSS animations',
+    demoLink: 'https://gonjavi.github.io/html-css-final/',
     githubLink: 'https://github.com/gonjavi/railsProductsApi',
-    img: newyork,
+    img: animacion1,
   },
 ];
 
