@@ -1,12 +1,14 @@
 import resto from '../img/javascript/resto.png';
 import library from '../img/javascript/library.png';
+import weather from '../img/javascript/weather.png';
+import todolist from '../img/javascript/todolist.png';
 
 const dataProjects = [
   {
     id: 0,
     technologies: 'JAVASCRIPT',
     titulo: 'RESTAURANT PAGE',
-    description: 'The entire content of the website is generated with JavaScript.',
+    description: 'The entire content of the website is generated with JavaScript',
     demoLink: 'https://gonjavi.github.io/JavascriptRestaurantPage/',
     githubLink: 'https://github.com/gonjavi/JavascriptRestaurantPage',
     img: resto,
@@ -22,21 +24,21 @@ const dataProjects = [
   },
   {
     id: 2,
-    technologies: 'HTML - CSS3',
-    titulo: 'THE NEXT WEB',
-    description: 'A clone page of the next web',
-    demoLink: 'https://raw.githack.com/trox115/thenextweb/development/index.html',
-    githubLink: 'https://github.com/gonjavi/HTML5CSS3TheNextWeb',
-    img: resto,
+    technologies: 'JavaScript - HTML - Boostrap',
+    titulo: 'WEATHER APP',
+    description: 'A weather forecast site built using the Open Weather Map API',
+    demoLink: 'https://gonjavi.github.io/JavaScriptWeatherApp/',
+    githubLink: 'https://github.com/gonjavi/JavaScriptWeatherApp',
+    img: weather,
   },
   {
     id: 3,
-    technologies: 'HTML - CSS3 - JavaScript',
-    titulo: 'ANIMATIONS',
-    description: 'A page with CSS animations',
-    demoLink: 'https://gonjavi.github.io/html-css-final-animaciones/',
-    githubLink: 'https://github.com/gonjavi/html-css-final',
-    img: resto,
+    technologies: 'JavaScript - HTML - Materialize-CSS',
+    titulo: 'TO-DO LIST',
+    description: 'A basic To-Do List app developed with JavaScript',
+    demoLink: 'https://gonjavi.github.io/JavascriptTodoList/',
+    githubLink: 'https://github.com/gonjavi/JavascriptTodoList',
+    img: todolist,
   },
 ];
 

@@ -12,7 +12,7 @@ const dataProjects = [
     id: 0,
     technologies: 'React, Redux, CSS, and Bootstrap',
     titulo: 'Bookstore App',
-    description: 'A Book Store app',
+    description: 'A Book Store app.',
     demoLink: 'https://associations-rails.herokuapp.com/',
     githubLink: 'https://github.com/gonjavi/railsAssociation',
     img: bookstore,
