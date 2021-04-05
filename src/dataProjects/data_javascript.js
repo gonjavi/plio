@@ -54,7 +54,7 @@ const dataProjects = [
     id: 5,
     technologies: 'JavaScript - HTML - Materialize-CSS',
     titulo: 'TESTING TIC-TAC-TOE ',
-    description: 'This project is focus on unit testing with JavaScript.',
+    description: 'This project is focus on JavaScript unit testing with Jest.',
     demoLink: 'https://rawcdn.githack.com/gonjavi/JavascriptTicTacToe/d5f9510bcf3fc82556eb058b68bed6151782bb65/index.html',
     githubLink: 'https://github.com/gonjavi/JavaScriptTestingTictactoe',
     img: tictactoe2,
