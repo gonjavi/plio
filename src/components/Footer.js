@@ -24,7 +24,7 @@ const Footer = () => (
       </ul>
     </div>
     <div className="letras">Crafted using ReactJS, Bootstrap, and Visual Studio Code.</div>
-    <div className="letras">G. Javier © 2019 - 2021</div>
+    <div className="letras">G. Javier © 2019 - {new Date().getFullYear()}</div>
 
   </div>
 );
